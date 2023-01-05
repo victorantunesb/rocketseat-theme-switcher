@@ -6,7 +6,6 @@ const switcher = document.querySelector(".switcher")
 
  changeTheme = () => {
      if (container.className === 'container-dark') {
-        console.log('entrei do changeTheme')
     container.className = 'container-light'
     }
     else {container.className = 'container-dark'
@@ -14,9 +13,7 @@ const switcher = document.querySelector(".switcher")
 }
 
  animation = () => { 
-    console.log('olá')
     if (ball.className == ''){
-        console.log('entrei no if do Animation')
         ball.className = 'ball-right'
     } 
     if (ball.className == 'ball-right'){
